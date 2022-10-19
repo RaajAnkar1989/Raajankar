@@ -25,5 +25,5 @@ echo value of d is : $d
 DATE=2022-09-05
 echo "Good Morning, Todays date is $DATE"
 # This is how we can fetch the system data
-echo "Number of logged in users are: $USERS"
+echo "Number of logged in users are: $Users"
 Footer
