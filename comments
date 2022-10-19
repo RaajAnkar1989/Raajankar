@@ -7,4 +7,5 @@ echo "devops training"
 echo "cloud training"
 a=10
 echo $a
-COMMENT 
+'COMMENT'
+ 
