@@ -16,13 +16,12 @@ systemctl enable nginx
 echo -n "start nginx"
 systemctl start nginx
 
-echo -n "downloading te code"
-curl -s -L -o /tmp/frontend.zip "https://github.com/stans-robot-project/frontend/archive/main.zip"
+echo -n "downloading the code"
+curl -s -L -o /tmp/frontend.zip "https://github.com/stans-robot-project/frontend/archive/main.zip" >>tmp/frontend.log
 
 cd /usr/share/nginx/html
 rm -rf *
-
-unzip /tmp/frontend.zip
+unzip /tmp/frontend.zip  >>tmp/frontend.log
 mv frontend-main/* .
 mv static/* .
 rm -rf frontend-main README.md
