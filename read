@@ -4,3 +4,6 @@ read -p "Enter your name:"  name
 echo "your name is $name"
 read -p "are you sure" 
 echo "thank you"
+
+read -p "what is your age:" 
+echo "thank you"
