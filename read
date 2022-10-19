@@ -1,4 +1,6 @@
 #!/bin/bash
 
 read -p "Enter your name:"  name 
-echo "Entered name is $name"
+echo "your name is $name"
+read -p "are you sure" 
+echo "thank you"
