@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "cloud training"
+
+<<COMMENT
+echo "devops training"
+echo "cloud training"
+a=10
+echo $a
+COMMENT 
