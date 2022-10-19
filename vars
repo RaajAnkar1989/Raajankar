@@ -8,8 +8,8 @@ b=abc
 
 d=150 
 
-DATE_COMMAND=$(date +%F)
-LOGGEDIN_USERS=$(who | wc -l)
+DATE=$(date +%F)
+Users=$(who | wc -l)
 
 #### No Datatypes in bash scriptng. Everything is a string by default.
 
@@ -23,7 +23,7 @@ echo value of d is : $d
 # rm -rf /data/
 
 DATE=2022-09-05
-echo "Good Morning, Todays date is $DATE_COMMAND"
+echo "Good Morning, Todays date is $DATE"
 # This is how we can fetch the system data
-echo "Number of logged in users are: $LOGGEDIN_USERS"
+echo "Number of logged in users are: $USERS"
 Footer
