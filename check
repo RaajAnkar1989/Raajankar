@@ -1,0 +1,12 @@
+#!/bin/bash
+
+ID=$(id -u)
+if [ $ID -eq 0 ]; then
+    echo "executing the httpd installation"
+    yum install httpd
+    
+else 
+    echo -e "\e[32m try executing the script with sudo or root user \e[0"
+    exit 1
+
+fi         
